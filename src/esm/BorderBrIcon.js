@@ -1,0 +1,59 @@
+import { createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from "vue"
+
+export default function render(_ctx, _cache) {
+  return (_openBlock(), _createElementBlock("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: "none",
+    "stroke-width": "1.5",
+    viewBox: "0 0 24 24"
+  }, [
+    _createElementVNode("path", {
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      d: "M20.01 4L20.01 20L4.00999 20"
+    }),
+    _createElementVNode("path", {
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      d: "M3.99999 16L4.01111 16.01"
+    }),
+    _createElementVNode("path", {
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      d: "M3.99999 12L4.01111 12.01"
+    }),
+    _createElementVNode("path", {
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      d: "M3.99999 8L4.01111 8.01"
+    }),
+    _createElementVNode("path", {
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      d: "M3.99999 4L4.01111 4.01"
+    }),
+    _createElementVNode("path", {
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      d: "M16 4L16.0111 4.01"
+    }),
+    _createElementVNode("path", {
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      d: "M12 4L12.0111 4.01"
+    }),
+    _createElementVNode("path", {
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      d: "M7.99999 4L8.01111 4.01"
+    })
+  ]))
+}
