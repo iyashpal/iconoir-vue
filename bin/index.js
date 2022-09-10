@@ -78,7 +78,7 @@ async function getIcons() {
                 ]
             }).data,
 
-            componentName: `${camelcase(incompatibleNames[componentFilename] ? incompatibleNames[componentFilename] : componentFilename, { pascalCase: true })}Icon`,
+            componentName: `${camelcase(incompatibleNames[componentFilename] ? incompatibleNames[componentFilename] : componentFilename, { pascalCase: true })}`,
         };
     }))
 }
