@@ -11,13 +11,13 @@ module.exports = function render(_ctx, _cache) {
       stroke: "currentColor",
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
-      d: "M7 8L10.5 11.5L7 15"
+      d: "M13 6L19 12L13 18"
     }),
     _createElementVNode("path", {
       stroke: "currentColor",
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
-      d: "M13 8L16.5 11.5L13 15"
+      d: "M5 6L11 12L5 18"
     })
   ]))
 }

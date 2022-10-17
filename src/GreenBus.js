@@ -44,8 +44,9 @@ module.exports = function render(_ctx, _cache) {
       d: "M7 8L17 8"
     }),
     _createElementVNode("path", {
-      fill: "currentColor",
-      d: "M4 20H8V22C8 22.5523 7.55228 23 7 23H5C4.44772 23 4 22.5523 4 22V20Z"
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      d: "M4.5 20V21.9C4.5 22.2314 4.76863 22.5 5.1 22.5H7.9C8.23137 22.5 8.5 22.2314 8.5 21.9V20"
     })
   ]))
 }

@@ -1,6 +1,6 @@
-import { createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from "vue"
+const { createElementVNode: _createElementVNode, openBlock: _openBlock, createElementBlock: _createElementBlock } = require("vue")
 
-export default function render(_ctx, _cache) {
+module.exports = function render(_ctx, _cache) {
   return (_openBlock(), _createElementBlock("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     fill: "none",
@@ -11,13 +11,13 @@ export default function render(_ctx, _cache) {
       stroke: "currentColor",
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
-      d: "M13 6L19 12L13 18"
+      d: "M6 13L12 19L18 13"
     }),
     _createElementVNode("path", {
       stroke: "currentColor",
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
-      d: "M5 6L11 12L5 18"
+      d: "M6 5L12 11L18 5"
     })
   ]))
 }

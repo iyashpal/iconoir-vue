@@ -8,7 +8,6 @@ export default function render(_ctx, _cache) {
     viewBox: "0 0 24 24"
   }, [
     _createElementVNode("path", {
-      fill: "currentColor",
       stroke: "currentColor",
       "stroke-linecap": "round",
       "stroke-linejoin": "round",

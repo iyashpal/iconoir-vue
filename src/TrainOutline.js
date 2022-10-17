@@ -14,14 +14,6 @@ module.exports = function render(_ctx, _cache) {
       d: "M9.6087 7H14.3913C15.832 7 17 8.16795 17 9.6087C17 9.82481 16.8248 10 16.6087 10H7.3913C7.17519 10 7 9.82481 7 9.6087C7 8.16795 8.16795 7 9.6087 7Z"
     }),
     _createElementVNode("path", {
-      fill: "currentColor",
-      d: "M7 19H10L8.27639 22.4472C8.107 22.786 7.76074 23 7.38197 23H6.61803C5.87465 23 5.39116 22.2177 5.72361 21.5528L7 19Z"
-    }),
-    _createElementVNode("path", {
-      fill: "currentColor",
-      d: "M17 19H14L15.7236 22.4472C15.893 22.786 16.2393 23 16.618 23H17.382C18.1253 23 18.6088 22.2177 18.2764 21.5528L17 19Z"
-    }),
-    _createElementVNode("path", {
       stroke: "currentColor",
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
@@ -38,6 +30,26 @@ module.exports = function render(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       d: "M8 15.01L8.01 14.9989"
+    }),
+    _createElementVNode("path", {
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      d: "M10.5 19L8.5 21.5"
+    }),
+    _createElementVNode("path", {
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      d: "M13.5 19L15.5 21.5"
+    }),
+    _createElementVNode("path", {
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      d: "M16.5 19L18.5 21.5"
+    }),
+    _createElementVNode("path", {
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      d: "M7.5 19L5.5 21.5"
     })
   ]))
 }

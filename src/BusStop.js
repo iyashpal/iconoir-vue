@@ -26,20 +26,6 @@ module.exports = function render(_ctx, _cache) {
       d: "M20 22V15V8M20 8H18L18 2H22V8H20Z"
     }),
     _createElementVNode("path", {
-      fill: "currentColor",
-      stroke: "currentColor",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round",
-      d: "M4 20V22H6V20H4Z"
-    }),
-    _createElementVNode("path", {
-      fill: "currentColor",
-      stroke: "currentColor",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round",
-      d: "M14 20V22H16V20H14Z"
-    }),
-    _createElementVNode("path", {
       stroke: "currentColor",
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
@@ -50,6 +36,16 @@ module.exports = function render(_ctx, _cache) {
       "stroke-linecap": "round",
       "stroke-linejoin": "round",
       d: "M14 8H6M14 2H6C3.79086 2 2 3.79086 2 6V8"
+    }),
+    _createElementVNode("path", {
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      d: "M3.5 20V21.9C3.5 22.2314 3.76863 22.5 4.1 22.5H6.9C7.23137 22.5 7.5 22.2314 7.5 21.9V20"
+    }),
+    _createElementVNode("path", {
+      stroke: "currentColor",
+      "stroke-linecap": "round",
+      d: "M14.5 20V21.9C14.5 22.2314 14.7686 22.5 15.1 22.5H16"
     })
   ]))
 }
