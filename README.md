@@ -77,7 +77,3 @@ For the most part, the Vue components are named as PascalCase variations of thei
 | 4k-display | display-4k | Display3K |
 | 360-view | view-360 | View360 |
 | github | github | Github |
-
-## Source
-
-You can find the main official repository [here](https://github.com/lucaburgio/iconoir).
