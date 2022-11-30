@@ -1,4 +1,4 @@
-# View Iconoir Icons
+# Vue Iconoir Icons
 
 ![NPM Version](https://img.shields.io/npm/v/iconoir-vue?style=flat-square) ![NPM Monthly Downloads](https://img.shields.io/npm/dm/iconoir-vue?style=flat-square) ![NPM License](https://img.shields.io/npm/l/iconoir-vue?style=flat-square)
  
