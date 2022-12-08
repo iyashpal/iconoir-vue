@@ -85,7 +85,7 @@ async function getIcons() {
 
 async function generateIcons(format) {
 
-    let outDir = `./src/${format === 'esm' ? '/esm' : ''}`;
+    let outDir = `./build/${format === 'esm' ? '/esm' : ''}`;
 
 
     await fs.mkdir(outDir, { recursive: true }, (error) => {
@@ -138,14 +138,14 @@ function build() {
     console.log(`Building package...`)
 
 
-    Promise.all([RmRf(`./src/*`)])
+    Promise.all([RmRf(`./build/*`)])
 
         .then(() => Promise.all([
             generateIcons('cjs'),
             generateIcons('esm'),
 
-            fs.writeFile(`./src/package.json`, `{"module": "./esm/index.js"}`, 'utf8'),
-            fs.writeFile(`./src/esm/package.json`, `{"type": "module"}`, 'utf8'),
+            fs.writeFile(`./build/package.json`, `{"module": "./esm/index.js"}`, 'utf8'),
+            fs.writeFile(`./build/esm/package.json`, `{"type": "module"}`, 'utf8'),
 
         ]))
 

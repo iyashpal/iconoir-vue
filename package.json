@@ -1,25 +1,25 @@
 {
   "name": "iconoir-vue",
-  "version": "5.4.1",
+  "version": "5.5.0",
   "description": "iconoir vue library.",
   "repository": {
     "type": "git",
     "url": "https://github.com/iyashpal/iconoir-vue.git"
   },
   "author": "Yash Pal <iyashpal.dev@gmail.com>",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "node ./bin"
   },
   "devDependencies": {
     "@vue/compiler-dom": "^3.2.23",
     "camelcase": "^6.2.1",
-    "iconoir": "^5.4.1",
+    "iconoir": "^5.5.0",
     "rimraf": "^3.0.2",
     "svgo": "^2.8.0"
   },
   "files": [
-    "src"
+    "build"
   ],
   "publishConfig": {
     "access": "public"
