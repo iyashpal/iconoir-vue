@@ -282,7 +282,7 @@ Added 37 new icons:
 - `wrench`
 
 ---
-## v5.0
+## v5.0.0
 
 First ever release of `iconoir-vue` package.
 
