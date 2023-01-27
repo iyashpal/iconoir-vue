@@ -1,3 +1,31 @@
+## v6.1.0
+Added 24 new icons:
+
+- `agile`
+- `bright-crown`
+- `bright-star`
+- `calendar-minus`
+- `calendar-plus`
+- `community`
+- `crown-circle`
+- `crown`
+- `git-cherry-pick-commit`
+- `git-pull-request-closed`
+- `key-command`
+- `learning`
+- `medium-priority`
+- `okrs`
+- `presentation`
+- `sine-wave`
+- `square-wave`
+- `strategy`
+- `t-shirt`
+- `user-crown`
+- `user-love`
+- `user-star`
+- `video-projector`
+- `women-t-shirt`
+
 ## v6.0.0
 In this major release, we made some old icons' names more consistent and removed one icon.
 **Please double-check this list before updating to Iconoir v6.0.**
