@@ -1,3 +1,11 @@
+## v6.1.1
+
+Fixed the optical size of 3 icons:
+
+- `search`
+- `zoom-in`
+- `zoom-out`
+
 ## v6.1.0
 Added 24 new icons:
 
