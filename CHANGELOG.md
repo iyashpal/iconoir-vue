@@ -1,3 +1,53 @@
+## v6.3.0
+Added 46 new icons:
+
+- `adobe-after-effects`
+- `adobe-illustrator`
+- `adobe-indesign`
+- `adobe-lightroom`
+- `adobe-photoshop`
+- `adobe-xd`
+- `arrow-bl`
+- `arrow-br`
+- `arrow-tl`
+- `arrow-tr`
+- `balcony`
+- `bathroom`
+- `binocular`
+- `birthday-cake`
+- `cellar`
+- `color-wheel`
+- `dev-mode-laptop`
+- `dev-mode-phone`
+- `developer`
+- `dew-point`
+- `elevator`
+- `fill-color`
+- `filter-list-circle`
+- `filter-list`
+- `fish`
+- `home-temperature-in`
+- `home-temperature-out`
+- `house-rooms`
+- `jellyfish`
+- `lullaby`
+- `magic-wand`
+- `neighbourhood`
+- `non-binary`
+- `planimetry`
+- `privacy policy`
+- `slash`
+- `spotify`
+- `strikethrough`
+- `temperature-down`
+- `temperature-high`
+- `temperature-low`
+- `temperature-up`
+- `time-zone`
+- `vue-js`
+- `wolf`
+- `yelp`
+
 ## v6.2.1
 Renewed 50 new icons and optimized their optical size:
 (Accessibility icons have been updated following #207).
