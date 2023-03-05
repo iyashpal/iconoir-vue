@@ -1,3 +1,15 @@
+## v6.4.0
+Added 9 new icons:
+- `cut-solid-with-curve`
+- `extrude`
+- `fillet-3d`
+- `loft-3d`
+- `patch-holes-3d`
+- `pipe-3d`
+- `project-curve-3d`
+- `sweep-3d`
+- `unjoin-3d`
+
 ## v6.3.0
 Added 46 new icons:
 

@@ -3,3 +3,4 @@ yarn-error.log
 build/*
 !build/package.json
 .idea
+.vscode
