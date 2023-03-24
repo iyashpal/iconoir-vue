@@ -1,3 +1,18 @@
+## v6.4.1
+Optimized the optical size of 6 icons:
+
+- `arrow-down`
+- `arrow-left`
+- `arrow-right`
+- `arrow-up`
+- `more-horiz`
+- `more-vert`
+
+Minor fix of 1 icon:
+
+- `numbered-list-left`
+
+
 ## v6.4.0
 Added 9 new icons:
 - `cut-solid-with-curve`
