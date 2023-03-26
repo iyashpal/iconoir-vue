@@ -1,3 +1,28 @@
+## v6.5.0
+Added 21 new icons:
+
+- `bitcoin-circle`
+- `bitcoin-rotate-out`
+- `card-reader`
+- `coins-swap`
+- `coins`
+- `commodity`
+- `contactless`
+- `dogecoin-circle`
+- `dogecoin-rotate-out`
+- `ethereum-circle`
+- `ethereum-rotate-out`
+- `hand-card`
+- `hand-cash`
+- `hand-contactless`
+- `litecoin-circle`
+- `litecoin-rotate-out`
+- `percent-rotate-out`
+- `safe-arrow-left`
+- `safe-arrow-right`
+- `safe-open`
+- `safe`
+
 ## v6.4.1
 Optimized the optical size of 6 icons:
 
