@@ -56,6 +56,7 @@ For the most part, the Vue components are named as PascalCase variations of thei
 
 | Iconoir Name | New Name |  Vue Component |
 |:--------|:-----|:-----------|
+| 3d-draft-face | draft-face-3d | DraftFace3D |
 | 1st-medal | medal-1st | Medal1St |
 | 2x2-cell | cell-2x2 | Cell2X2 |
 | 3d-add-hole | add-hole-3d | AddHole3D |

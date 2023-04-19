@@ -52,6 +52,7 @@ async function getIcons() {
             '3d-arc': 'arc-3d',
             '3d-bridge': 'bridge-3d',
             '3d-center-box': 'center-box-3d',
+            '3d-draft-face': 'draft-face-3d',
             '3d-ellipse-three-pts': 'ellipse-three-pts-3d',
             '3d-ellipse': 'ellipse-3d',
             '3d-pt-box': 'pt-box-3d',

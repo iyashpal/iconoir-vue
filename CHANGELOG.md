@@ -1,3 +1,14 @@
+## v6.6.0
+Added 7 new icons:
+
+- `3d-draft-face`
+- `apple-shortcuts`
+- `arrows-up-from-line`
+- `clock-rotate-right`
+- `cube-replace-face`
+- `glass-fragile`
+- `heart-arrow-down`
+
 ## v6.5.0
 Added 21 new icons:
 
