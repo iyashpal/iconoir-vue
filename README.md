@@ -56,7 +56,6 @@ For the most part, the Vue components are named as PascalCase variations of thei
 
 | Iconoir Name | New Name |  Vue Component |
 |:--------|:-----|:-----------|
-| 3d-draft-face | draft-face-3d | DraftFace3D |
 | 1st-medal | medal-1st | Medal1St |
 | 2x2-cell | cell-2x2 | Cell2X2 |
 | 3d-add-hole | add-hole-3d | AddHole3D |
@@ -64,6 +63,7 @@ For the most part, the Vue components are named as PascalCase variations of thei
 | 3d-arc | arc-3d | Arc3D |
 | 3d-bridge | bridge-3d | Bridge3D |
 | 3d-center-box | center-box-3d | CenterBox3D |
+| 3d-draft-face | draft-face-3d | DraftFace3D |
 | 3d-ellipse-three-pts | ellipse-three-pts-3d | EllipseThreePts3D |
 | 3d-ellipse | ellipse-3d | Ellipse3D |
 | 3d-pt-box | pt-box-3d | PtBox3D |
