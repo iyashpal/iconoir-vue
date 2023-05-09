@@ -1,3 +1,16 @@
+## v6.8.0
+Added 8 new icons:
+- `comp-align-bottom`
+- `comp-align-left`
+- `comp-align-right`
+- `comp-align-top`
+- `component`
+- `spark`
+- `sparks`
+- `square-cursor`
+
+## v6.7.0
+Version skipped for `vue-iconoir`
 ## v6.6.0
 Added 7 new icons:
 
