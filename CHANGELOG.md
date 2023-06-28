@@ -1,3 +1,9 @@
+## v6.9.0
+Added 3 new icons:
+- `bridge-surface`
+- `constrained-surface`
+- `curve-array`
+
 ## v6.8.0
 Added 8 new icons:
 - `comp-align-bottom`

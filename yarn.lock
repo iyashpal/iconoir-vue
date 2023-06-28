@@ -156,10 +156,10 @@ glob@^7.1.3:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-iconoir@^6.8.0:
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/iconoir/-/iconoir-6.8.0.tgz#bf947126b58f35e7add63ffdf0fccbdb3a595816"
-  integrity sha512-7Bum/AMEIUDceRBZiJO/je3YRRXck/VeBiQb2nXsEIPdwxF3B+kMI2ToWZ2dI/UtZkHelvr75kRfpGPi7rTKbg==
+iconoir@^6.9.0:
+  version "6.9.0"
+  resolved "https://registry.yarnpkg.com/iconoir/-/iconoir-6.9.0.tgz#1889ba6543c9baf11b77182d59b406cf68992a4b"
+  integrity sha512-Da3rBdQScrZoeov4RsfyWs4R/8KVnVztdjXymdb4XtSJcKf38UM3Gf4EzhdKaW9cV76cjHzzbOtjASOjT5UYtw==
 
 inflight@^1.0.4:
   version "1.0.6"
