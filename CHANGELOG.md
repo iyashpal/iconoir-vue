@@ -1,3 +1,13 @@
+## v6.10.0
+Added 6 new icons:
+
+- `align-horizontal-centers`
+- `align-horizontal-spacing`
+- `align-vertical-centers`
+- `align-vertical-spacing`
+- `app-store`
+- `circle-spark`
+
 ## v6.9.0
 Added 3 new icons:
 - `bridge-surface`
