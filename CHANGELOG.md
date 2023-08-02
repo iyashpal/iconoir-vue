@@ -1,3 +1,19 @@
+## v6.11.0
+Add 12 new icons:
+- `number-0-square`
+- `number-1-square`
+- `number-2-square`
+- `number-3-square`
+- `number-4-square`
+- `number-5-square`
+- `number-6-square`
+- `number-7-square`
+- `number-8-square`
+- `number-9-square`
+- `post`
+- `threads`
+
+
 ## v6.10.0
 Added 6 new icons:
 
