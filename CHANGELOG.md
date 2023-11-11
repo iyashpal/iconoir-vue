@@ -1,3 +1,274 @@
+## v7.0.0
+### Introducing Solid icons and a naming convention.
+
+Regular and Solid icons are now placed in two different folders.
+Check the relative README for your coding language for more info.
+
+According to this new naming convention, these icons have been renamed:
+
+| Before                   | After |
+|:-------------------------| :---- |
+| bookmark-empty           | bookmark |
+| divide-selection-1       | split-area |
+| cloud-book-alt           | cloud-bookmark |
+| privacy policy           | privacy-policy |
+| save-floppy-disk         | floppy-disk |
+| load-action-floppy       | floppy-disk-arrow-out |
+| save-action-floppy       | floppy-disk-arrow-in |
+| mail-opened              | mail-open |
+| pin-alt                  | map-pin |
+| shopping-bag-alt         | shopping-bag-pocket |
+| key-alt-back             | key-back |
+| key-alt-minus            | key-minus |
+| key-alt-plus             | key-plus |
+| key-alt-remove           | key-xmark |
+| key-alt                  | key |
+| card-issue               | card-no-access |
+| no-access-window         | window-no-access |
+| log-denied               | log-no-access |
+| folder-alert             | folder-warning |
+| wifi-issue               | wifi-warning |
+| laptop-issue             | laptop-warning |
+| tv-issue                 | tv-warning |
+| domotic-issue            | domotic-warning |
+| headset-issue            | headset-warning |
+| shopping-bag-issue       | shopping-bag-warning |
+| card-locked              | card-lock |
+| locked-book              | book-lock |
+| locked-window            | window-lock |
+| lock-key                 | lock-square |
+| coin                     | dollar-circle |
+| hospital-sign            | hospital-circle |
+| info-empty               | info-circle |
+| refresh-circular         | refresh-circle |
+| card-security            | card-shield |
+| check-window             | window-check |
+| voice-ok                 | voice-check |
+| password-pass            | password-check |
+| clean-water              | water-check |
+| gas-tank-drop            | gas-tank-droplet |
+| settings-cloud           | cloud-square |
+| text-alt                 | text-square |
+| cooling                  | cooling-square |
+| selection                | square-dashed |
+| git-command              | slash-square |
+| divide-selection-2       | split-square-dashed |
+| fast-arrow-down-box      | fast-arrow-down-square |
+| fast-arrow-left-box      | fast-arrow-left-square |
+| fast-arrow-right-box     | fast-arrow-right-square |
+| fast-arrow-up-box        | fast-arrow-up-square |
+| heating                  | heating-square |
+| carbon                   | c-square |
+| fluorine                 | f-square |
+| hydrogen                 | h-square |
+| nitrogen                 | n-square |
+| oxygen                   | o-square |
+| x-coordinate             | x-square |
+| y-coordinate             | y-square |
+| z-coordinate             | z-square |
+| ar-symbol                | ar-tag |
+| vr-symbol                | vr-tag |
+| ip-address               | ip-address-tag |
+| closed-captions          | closed-captions-tag |
+| pharmacy-cross-square    | pharmacy-cross-tag |
+| down-round-arrow         | arrow-down-tag |
+| enlarge-round-arrow      | arrow-enlarge-tag |
+| left-round-arrow         | arrow-left-tag |
+| reduce-round-arrow       | arrow-reduce-tag |
+| right-round-arrow        | arrow-right-tag |
+| up-round-arrow           | arrow-up-tag |
+| grid-remove              | grid-xmark |
+| remove-pin-alt           | map-pin-xmark |
+| remove-media-video       | media-video-xmark |
+| remove-media-image       | media-image-xmark |
+| remove-user              | user-xmark |
+| remove-square            | xmark-square |
+| multiple-pages-delete    | multiple-pages-xmark |
+| phone-delete             | phone-xmark |
+| delete-circle            | xmark-circle |
+| cancel                   | xmark |
+| shield-cross             | shield-xmark |
+| map-issue                | map-xmark |
+| maps-arrow-issue         | maps-arrow-xmark |
+| cloud-error              | cloud-xmark |
+| bubble-error             | bubble-xmark |
+| chat-bubble-error        | chat-bubble-xmark |
+| wifi-error               | wifi-xmark |
+| fingerprint-error-circle | fingerprint-xmark-circle |
+| voice-error              | voice-xmark |
+| password-error           | password-xmark |
+| shopping-code-error      | shopping-code-xmark |
+| error-window             | window-xmark |
+| drone-error              | drone-xmark |
+| ev-plug-error            | ev-plug-xmark |
+| web-window-close         | web-window-xmark |
+| remove-folder            | folder-minus |
+| remove-database-script   | database-script-minus |
+| remove-frame             | frame-minus-in |
+| ruler-remove             | ruler-minus |
+| remove-from-cart         | cart-minus |
+| remove-selection         | minus-square-dashed |
+| minus-pin-alt            | map-pin-minus |
+| shopping-bag-remove      | shopping-bag-minus |
+| multiple-pages-remove    | multiple-pages-minus |
+| green-bus                | bus-green |
+| green-truck              | truck-green |
+| green-vehicle            | vehicle-green |
+| add-circle               | plus-circle |
+| add-square               | plus-square |
+| add-keyframe-alt         | keyframe-plus-in |
+| add-keyframe             | keyframe-plus |
+| add-keyframes            | keyframes-plus |
+| add-circle               | plus-circle |
+| add-square               | plus-square |
+| add-keyframe-alt         | keyframe-plus-in |
+| add-keyframe             | keyframe-plus |
+| add-keyframes            | keyframes-plus |
+| mic-add                  | microphone-plus |
+| chat-add                 | chat-plus-in |
+| phone-add                | phone-plus |
+| add-database-script      | database-script-plus |
+| add-frame                | frame-plus-in |
+| add-lens                 | lens-plus |
+| ruler-add                | ruler-plus |
+| add-folder               | folder-plus |
+| add-page                 | page-plus-in |
+| multiple-pages-add       | multiple-pages-plus |
+| add-page-alt             | page-plus |
+| grid-add                 | grid-plus |
+| music-double-note-add    | music-double-note-plus |
+| music-note-add           | music-note-plus |
+| playlist-add             | playlist-plus |
+| add-selection            | plus-square-dashed |
+| add-media-image          | media-image-plus |
+| add-media-video          | media-video-plus |
+| shield-add               | shield-plus-in |
+| add-hexagon              | hexagon-plus |
+| add-to-cart              | cart-plus |
+| shopping-bag-add         | shopping-bag-plus |
+| bin-add                  | bin-plus |
+| add-user                 | user-plus |
+| add-pin-alt              | map-pin-plus |
+| mic-remove               | microphone-minus |
+| mic-check                | microphone-check |
+| mic                      | microphone |
+| mic-speaking             | microphone-speaking |
+| mic-warning              | microphone-warning |
+| mic-mute                 | microphone-mute |
+| db-error                 | database-xmark |
+| move-ruler               | ruler-arrows |
+| move-down                | dot-arrow-down |
+| move-up                  | dot-arrow-up |
+| move-right               | dot-arrow-right |
+| move-left                | dot-arrow-left |
+| 3d-select-solid          | cube |
+| cut-solid-with-curve     | cube-cut-with-curve |
+| bin-minus                | bin-minus-in |
+| bin-plus                 | bin-plus-in |
+| 3d-add-hole              | cube-hole |
+| patch-holes-3d           | cube-bandage |
+| search-font              | text-magnifying-glass |
+| missing-font             | font-question |
+| font-size                | text-arrows-up-down |
+| arrow-bl-circle          | arrow-down-left-circle |
+| arrow-bl-square          | arrow-down-left-square |
+| arrow-br-circle          | arrow-down-right-circle |
+| arrow-br-square          | arrow-down-right-square |
+| arrow-tl-circle          | arrow-top-left-circle |
+| arrow-tl-square          | arrow-top-left-square |
+| arrow-tr-circle          | arrow-top-right-circle |
+| arrow-tr-square          | arrow-top-right-square |
+| arrow-bl                 | arrow-down-left |
+| arrow-br                 | arrow-down-right |
+| arrow-tl                 | arrow-top-left |
+| arrow-tr                 | arrow-top-right |
+| network-alt              | network-reverse |
+| voice-phone              | mobile-voice |
+| fingerprint-phone        | mobile-fingerprint |
+| dev-mode-phone           | mobile-dev-mode |
+| dev-mode-laptop          | laptop-dev-mode |
+| db-check                 | database-check |
+| db-search                | database-search |
+| db-warning               | database-warning |
+| db                       | database |
+| eye-alt                  | eye |
+| eye-close                | eye-closed |
+| clutery                  | cutlery |
+| verified-user            | user-badge-check |
+| twitter-verified-badge   | badge-check |
+| church-alt               | church-side |
+| small-shop-alt           | shop |
+| shop-alt                 | shop-four-tiles |
+| small-shop               | shop-window |
+| shop                     | shop-four-tiles-window |
+| high-priority            | priority-high |
+| medium-priority          | priority-medium |
+| her-slips                | slips |
+| large-suitcase           | suitcase |
+| women-t-shirt            | shirt-tank-top |
+| t-shirt                  | shirt |
+| umbrella-full            | umbrella |
+| pants-alt                | pants |
+| short-pants-alt          | short-pants |
+| short-pants              | short-pants-pockets |
+| pants                    | pants-pockets |
+| basketball-alt           | basketball |
+| printer-alt              | printer |
+| doc-star-alt             | doc-star-in |
+| doc-search-alt           | doc-magnifying-glass-in |
+| doc-search               | doc-magnifying-glass |
+| water-check              | droplet-check |
+| no-link                  | link-xmark |
+| no-lock                  | lock-slash |
+| no-battery               | battery-slash |
+| no-coin                  | coin-slash |
+| no-credit-card           | credit-card-slash |
+| no-smoking               | cigarette-slash |
+| arrow-top-left-circle    | arrow-up-left-circle |
+| arrow-top-left-square    | arrow-up-left-square |
+| arrow-top-right-circle   | arrow-up-right-circle |
+| arrow-top-right-square   | arrow-up-right-square |
+| arrow-top-left           | arrow-up-left |
+| arrow-top-right          | arrow-up-right |
+| headset-charge           | headset-bolt |
+| shortcut                 | shortcut-square |
+| 1st-medal                | medal-1st |
+| 2x2-cell                 | cell-2x2 |
+| 360-view                 | view-360 |
+| 3d-arc-center-pt         | arc-3d-center-point |
+| 3d-arc                   | arc-3d |
+| 3d-bridge                | bridge-3d |
+| 3d-center-box            | box-3d-center |
+| 3d-draft-face            | face-3d-draft |
+| 3d-ellipse-three-pts     | ellipse-3d-three-points |
+| 3d-ellipse               | ellipse-3d |
+| 3d-pt-box                | box-3d-point |
+| 3d-rect-corner-to-corner | square-3d-corner-to-corner |
+| 3d-rect-from-center      | square-3d-from-center |
+| 3d-rect-three-pts        | square-3d-three-points |
+| 3d-select-edge           | select-edge-3d |
+| 3d-select-face           | select-face-3d |
+| 3d-select-point          | select-point-3d |
+| 3d-three-pts-box         | box-3d-three-points |
+| 4k-display               | display-4k |
+
+Icons removed:
+
+- eye-empty
+- eye-off
+- verified-badge
+- beach-bag-big
+- apple-half-alt
+- basketball
+- hexagon-alt
+- printer
+- cut-alt
+- color-picker-empty
+
+Added 149 new SOLID icons:
+
+Changelog is too long. See the full changelog [here on Pastebin](https://pastebin.com/7GPHtPjD) or visit [iconoir.com](https://iconoir.com/)
+
 ## v6.11.0
 Add 12 new icons:
 - `number-0-square`
