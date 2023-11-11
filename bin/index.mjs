@@ -36,29 +36,7 @@ async function getIcons(type) {
 
         let componentFilename = file.replace(/\.svg$/, '');
 
-        let incompatibleNames = {
-            '1st-medal': 'medal-1st',
-            '2x2-cell': 'cell-2x2',
-            '3d-add-hole': 'add-hole-3d',
-            '3d-arc-center-pt': 'arc-center-pt-3d',
-            '3d-arc': 'arc-3d',
-            '3d-bridge': 'bridge-3d',
-            '3d-center-box': 'center-box-3d',
-            '3d-draft-face': 'draft-face-3d',
-            '3d-ellipse-three-pts': 'ellipse-three-pts-3d',
-            '3d-ellipse': 'ellipse-3d',
-            '3d-pt-box': 'pt-box-3d',
-            '3d-rect-corner-to-corner': 'rect-corner-to-corner-3d',
-            '3d-rect-from-center': 'rect-from-center-3d',
-            '3d-rect-three-pts': 'rect-three-pts-3d',
-            '3d-select-edge': 'select-edge-3d',
-            '3d-select-face': 'select-face-3d',
-            '3d-select-point': 'select-point-3d',
-            '3d-select-solid': 'select-solid-3d',
-            '3d-three-pts-box': 'three-pts-box-3d',
-            '4k-display': 'display-4k',
-            '360-view': 'view-360',
-        };
+        let renameComponentsTo = {};
 
         let svgContent = await fs.readFile(`./node_modules/iconoir/icons/${type}/${file}`, 'utf8')
 
@@ -71,7 +49,7 @@ async function getIcons(type) {
                 ]
             }).data,
 
-            componentName: `${camelcase(incompatibleNames[componentFilename] ? incompatibleNames[componentFilename] : componentFilename, {pascalCase: true})}`,
+            componentName: `${camelcase(renameComponentsTo[componentFilename] ? renameComponentsTo[componentFilename] : componentFilename, {pascalCase: true})}`,
         };
     }))
 }
@@ -127,8 +105,6 @@ function exportAll(icons, format, includeExtension = true) {
 
 function build() {
     console.log(`Building package...`)
-
-
 
     Promise.all([
         fs.rm('./solid', {force: true, recursive: true}),
