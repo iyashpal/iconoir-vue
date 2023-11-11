@@ -1,6 +1,7 @@
 node_modules
 yarn-error.log
-build/*
+solid/*
+regular/*
 !build/package.json
 .idea
 .vscode

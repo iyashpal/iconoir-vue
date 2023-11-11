@@ -1,18 +1,10 @@
-
-const fs = require('fs/promises')
-
-const { promisify } = require('util')
-
-const camelcase = require('camelcase')
-
-const RmRf = promisify(require('rimraf'))
-
-const { compile: compileVue } = require('@vue/compiler-dom')
-
-const { optimize } = require('svgo');
+import {optimize} from 'svgo'
+import camelcase from 'camelcase'
+import fs from "node:fs/promises"
+import {compile as compileVue} from '@vue/compiler-dom'
 
 const transform = (svg, componentName, format) => {
-    let { code } = compileVue(svg, { mode: 'module' })
+    let {code} = compileVue(svg, {mode: 'module'})
 
     if (format === 'esm') {
         return code.replace('export function', 'export default function')
@@ -34,10 +26,10 @@ const transform = (svg, componentName, format) => {
 };
 
 
-async function getIcons() {
+async function getIcons(type) {
 
 
-    let files = await fs.readdir(`./node_modules/iconoir/icons`)
+    let files = await fs.readdir(`./node_modules/iconoir/icons/${type}`)
 
 
     return Promise.all(files.map(async (file) => {
@@ -68,7 +60,7 @@ async function getIcons() {
             '360-view': 'view-360',
         };
 
-        let svgContent = await fs.readFile(`./node_modules/iconoir/icons/${file}`, 'utf8')
+        let svgContent = await fs.readFile(`./node_modules/iconoir/icons/${type}/${file}`, 'utf8')
 
         return {
 
@@ -79,45 +71,43 @@ async function getIcons() {
                 ]
             }).data,
 
-            componentName: `${camelcase(incompatibleNames[componentFilename] ? incompatibleNames[componentFilename] : componentFilename, { pascalCase: true })}`,
+            componentName: `${camelcase(incompatibleNames[componentFilename] ? incompatibleNames[componentFilename] : componentFilename, {pascalCase: true})}`,
         };
     }))
 }
 
-async function generateIcons(format) {
+async function generateIcons(format, type) {
 
-    let outDir = `./build/${format === 'esm' ? '/esm' : ''}`;
+    let outDir = `./${type}/${format === 'esm' ? '/esm' : ''}`;
 
 
-    await fs.mkdir(outDir, { recursive: true }, (error) => {
+    await fs.mkdir(outDir, {recursive: true}, (error) => {
         if (error) throw error;
     });
 
-    let icons = await getIcons()
+    let icons = await getIcons(type)
 
-
-    await Promise.all(icons.flatMap(async ({ componentName, svg }) => {
+    await Promise.all(icons.flatMap(async ({componentName, svg}) => {
 
         let content = await transform(svg, componentName, format)
 
         let types = `import { RenderFunction } from 'vue';\ndeclare const ${componentName}: RenderFunction;\nexport default ${componentName};\n`;
 
+
         return [
 
-            fs.writeFile(`${outDir}/${componentName}.js`, content, 'utf8'),
+            fs.writeFile(`${outDir}/${componentName}.js`, content, {unicode: 'utf8'}),
 
-            ...(types ? [fs.writeFile(`${outDir}/${componentName}.d.ts`, types, 'utf8')] : []),
+            ...(types ? [fs.writeFile(`${outDir}/${componentName}.d.ts`, types, {unicode: 'utf8'})] : []),
         ]
 
 
     }));
 
 
+    await fs.writeFile(`${outDir}/index.js`, exportAll(icons, format), {unicode: 'utf8'})
 
-
-    await fs.writeFile(`${outDir}/index.js`, exportAll(icons, format), 'utf8')
-
-    await fs.writeFile(`${outDir}/index.d.ts`, exportAll(icons, 'esm', false), 'utf8')
+    await fs.writeFile(`${outDir}/index.d.ts`, exportAll(icons, 'esm', false), {unicode: 'utf8'})
 
 
 }
@@ -125,7 +115,7 @@ async function generateIcons(format) {
 
 function exportAll(icons, format, includeExtension = true) {
     return icons
-        .map(({ componentName }) => {
+        .map(({componentName}) => {
             let extension = includeExtension ? '.js' : ''
             if (format === 'esm') {
                 return `export { default as ${componentName} } from './${componentName}${extension}'`
@@ -139,16 +129,25 @@ function build() {
     console.log(`Building package...`)
 
 
-    Promise.all([RmRf(`./build/*`)])
+
+    Promise.all([
+        fs.rm('./solid', {force: true, recursive: true}),
+        fs.rm('./regular', {force: true, recursive: true}),
+    ])
 
         .then(() => Promise.all([
-            generateIcons('cjs'),
-            generateIcons('esm'),
-
-            fs.writeFile(`./build/package.json`, `{"module": "./esm/index.js"}`, 'utf8'),
-            fs.writeFile(`./build/esm/package.json`, `{"type": "module"}`, 'utf8'),
-
+            generateIcons('cjs', 'regular'),
+            generateIcons('cjs', 'solid'),
+            generateIcons('esm', 'regular'),
+            generateIcons('esm', 'solid'),
         ]))
+
+        .then(() => {
+            fs.writeFile(`./solid/package.json`, `{"module": "./esm/index.js"}`, {unicode: 'utf8'})
+            fs.writeFile(`./regular/package.json`, `{"module": "./esm/index.js"}`, {unicode: 'utf8'})
+            fs.writeFile(`./solid/esm/package.json`, `{"type": "module"}`, {unicode: 'utf8'})
+            fs.writeFile(`./regular/esm/package.json`, `{"type": "module"}`, {unicode: 'utf8'})
+        })
 
         .then(() => {
 
@@ -156,7 +155,6 @@ function build() {
 
         });
 }
-
 
 
 build()
