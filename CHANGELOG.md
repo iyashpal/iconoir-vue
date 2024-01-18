@@ -1,3 +1,12 @@
+## v7.1.0
+Added 6 new icons:
+- `asterisk`
+- `dns`
+- `hashtag`
+- `peerlist`
+- `polar-sh`
+- `x`
+
 ## v7.0.0
 ### Introducing Solid icons and a naming convention.
 
