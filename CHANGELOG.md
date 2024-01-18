@@ -1,3 +1,36 @@
+## v7.3.0
+24 new icons:
+- `app-notification-solid`
+- `bubble-xmark-solid`
+- `chat-bubble-check-solid`
+- `chat-bubble-empty-solid`
+- `chat-bubble-question-solid`
+- `chat-bubble-solid`
+- `chat-bubble-translate-solid`
+- `chat-bubble-warning-solid`
+- `chat-bubble-xmark-solid`
+- `chat-lines-solid`
+- `chat-minus-in-solid`
+- `chat-plus-in-solid`
+- `facetime-solid`
+- `mail-open-solid`
+- `mail-solid`
+- `message-alert-solid`
+- `message-solid`
+- `message-text-solid`
+- `multi-bubble-solid`
+- `podcast-solid`
+- `quote-message-solid`
+- `quote-solid`
+- `send-diagonal-solid`
+- `send-solid`
+
+4 icons fixed:
+- `web-window-energy-consumption`
+- `web-window-xmark`
+- `web-window`
+- `hand-brake`
+
 ## v7.2.0
 8 new icons:
 - `ice-cream-solid`
