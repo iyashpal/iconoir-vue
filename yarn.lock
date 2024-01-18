@@ -7,11 +7,6 @@
   resolved "https://registry.npmjs.org/@babel/parser/-/parser-7.23.6.tgz"
   integrity sha512-Z2uID7YJ7oNvAI20O9X0bblw7Qqs8Q2hFy0R9tAfnfLkp5MW0UH9eUvnDSnFwKZ0AvgS1ucqR4KzvVHgnke1VQ==
 
-"@jridgewell/sourcemap-codec@^1.4.15":
-  version "1.4.15"
-  resolved "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz"
-  integrity sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==
-
 "@trysound/sax@0.2.0":
   version "0.2.0"
   resolved "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
@@ -28,67 +23,12 @@
     estree-walker "^2.0.2"
     source-map-js "^1.0.2"
 
-"@vue/compiler-dom@^3.3.8", "@vue/compiler-dom@3.4.15":
+"@vue/compiler-dom@^3.3.8":
   version "3.4.15"
   resolved "https://registry.npmjs.org/@vue/compiler-dom/-/compiler-dom-3.4.15.tgz"
   integrity sha512-wox0aasVV74zoXyblarOM3AZQz/Z+OunYcIHe1OsGclCHt8RsRm04DObjefaI82u6XDzv+qGWZ24tIsRAIi5MQ==
   dependencies:
     "@vue/compiler-core" "3.4.15"
-    "@vue/shared" "3.4.15"
-
-"@vue/compiler-sfc@3.4.15":
-  version "3.4.15"
-  resolved "https://registry.npmjs.org/@vue/compiler-sfc/-/compiler-sfc-3.4.15.tgz"
-  integrity sha512-LCn5M6QpkpFsh3GQvs2mJUOAlBQcCco8D60Bcqmf3O3w5a+KWS5GvYbrrJBkgvL1BDnTp+e8q0lXCLgHhKguBA==
-  dependencies:
-    "@babel/parser" "^7.23.6"
-    "@vue/compiler-core" "3.4.15"
-    "@vue/compiler-dom" "3.4.15"
-    "@vue/compiler-ssr" "3.4.15"
-    "@vue/shared" "3.4.15"
-    estree-walker "^2.0.2"
-    magic-string "^0.30.5"
-    postcss "^8.4.33"
-    source-map-js "^1.0.2"
-
-"@vue/compiler-ssr@3.4.15":
-  version "3.4.15"
-  resolved "https://registry.npmjs.org/@vue/compiler-ssr/-/compiler-ssr-3.4.15.tgz"
-  integrity sha512-1jdeQyiGznr8gjFDadVmOJqZiLNSsMa5ZgqavkPZ8O2wjHv0tVuAEsw5hTdUoUW4232vpBbL/wJhzVW/JwY1Uw==
-  dependencies:
-    "@vue/compiler-dom" "3.4.15"
-    "@vue/shared" "3.4.15"
-
-"@vue/reactivity@3.4.15":
-  version "3.4.15"
-  resolved "https://registry.npmjs.org/@vue/reactivity/-/reactivity-3.4.15.tgz"
-  integrity sha512-55yJh2bsff20K5O84MxSvXKPHHt17I2EomHznvFiJCAZpJTNW8IuLj1xZWMLELRhBK3kkFV/1ErZGHJfah7i7w==
-  dependencies:
-    "@vue/shared" "3.4.15"
-
-"@vue/runtime-core@3.4.15":
-  version "3.4.15"
-  resolved "https://registry.npmjs.org/@vue/runtime-core/-/runtime-core-3.4.15.tgz"
-  integrity sha512-6E3by5m6v1AkW0McCeAyhHTw+3y17YCOKG0U0HDKDscV4Hs0kgNT5G+GCHak16jKgcCDHpI9xe5NKb8sdLCLdw==
-  dependencies:
-    "@vue/reactivity" "3.4.15"
-    "@vue/shared" "3.4.15"
-
-"@vue/runtime-dom@3.4.15":
-  version "3.4.15"
-  resolved "https://registry.npmjs.org/@vue/runtime-dom/-/runtime-dom-3.4.15.tgz"
-  integrity sha512-EVW8D6vfFVq3V/yDKNPBFkZKGMFSvZrUQmx196o/v2tHKdwWdiZjYUBS+0Ez3+ohRyF8Njwy/6FH5gYJ75liUw==
-  dependencies:
-    "@vue/runtime-core" "3.4.15"
-    "@vue/shared" "3.4.15"
-    csstype "^3.1.3"
-
-"@vue/server-renderer@3.4.15":
-  version "3.4.15"
-  resolved "https://registry.npmjs.org/@vue/server-renderer/-/server-renderer-3.4.15.tgz"
-  integrity sha512-3HYzaidu9cHjrT+qGUuDhFYvF/j643bHC6uUN9BgM11DVy+pM6ATsG6uPBLnkwOgs7BpJABReLmpL3ZPAsUaqw==
-  dependencies:
-    "@vue/compiler-ssr" "3.4.15"
     "@vue/shared" "3.4.15"
 
 "@vue/shared@3.4.15":
@@ -150,11 +90,6 @@ csso@5.0.5:
   dependencies:
     css-tree "~2.2.0"
 
-csstype@^3.1.3:
-  version "3.1.3"
-  resolved "https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz"
-  integrity sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==
-
 dom-serializer@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz"
@@ -195,17 +130,10 @@ estree-walker@^2.0.2:
   resolved "https://registry.npmjs.org/estree-walker/-/estree-walker-2.0.2.tgz"
   integrity sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==
 
-iconoir@^7.1.0:
+iconoir@^7.3.0:
   version "7.3.0"
-  resolved "https://registry.npmjs.org/iconoir/-/iconoir-7.3.0.tgz"
+  resolved "https://registry.yarnpkg.com/iconoir/-/iconoir-7.3.0.tgz#d7689eac58518238ce9f8739728b5e43c85d0028"
   integrity sha512-e/Kop2l4Hsc2Aq95paLAP1rHVTpIxVcKV/G/hMOd3GzFI/vIYEYYRSef/HDC7Ru1rH7KP7BFGuCO5FeLLP5wEA==
-
-magic-string@^0.30.5:
-  version "0.30.5"
-  resolved "https://registry.npmjs.org/magic-string/-/magic-string-0.30.5.tgz"
-  integrity sha512-7xlpfBaQaP/T6Vh8MO/EqXSW5En6INHEvEXQiuff7Gku0PWjU3uf6w/j9o7O+SpB5fOAkrI5HeoNgwjEO0pFsA==
-  dependencies:
-    "@jridgewell/sourcemap-codec" "^1.4.15"
 
 mdn-data@2.0.28:
   version "2.0.28"
@@ -216,11 +144,6 @@ mdn-data@2.0.30:
   version "2.0.30"
   resolved "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.30.tgz"
   integrity sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==
-
-nanoid@^3.3.7:
-  version "3.3.7"
-  resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.3.7.tgz"
-  integrity sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==
 
 nth-check@^2.0.1:
   version "2.1.1"
@@ -233,15 +156,6 @@ picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
   integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
-
-postcss@^8.4.33:
-  version "8.4.33"
-  resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.33.tgz"
-  integrity sha512-Kkpbhhdjw2qQs2O2DGX+8m5OVqEcbB9HRBvuYM9pgrjEFUg30A9LmXNlTAUj4S9kgtGyrMbTzVjH7E+s5Re2yg==
-  dependencies:
-    nanoid "^3.3.7"
-    picocolors "^1.0.0"
-    source-map-js "^1.0.2"
 
 source-map-js@^1.0.1, source-map-js@^1.0.2:
   version "1.0.2"
@@ -259,19 +173,3 @@ svgo@^3.0.3:
     css-tree "^2.2.1"
     csso "5.0.5"
     picocolors "^1.0.0"
-
-user@^0.0.0:
-  version "0.0.0"
-  resolved "https://registry.npmjs.org/user/-/user-0.0.0.tgz"
-  integrity sha512-eRNM5isOvr6aEFAGi1CqAkmLkYxW2NJ5ThhbD+6IJXYKM1mo7Gtxx4mQIveHz/5K3p/SVnlW9k17ETn+QAu8IQ==
-
-"vue@>= 3", vue@3.4.15:
-  version "3.4.15"
-  resolved "https://registry.npmjs.org/vue/-/vue-3.4.15.tgz"
-  integrity sha512-jC0GH4KkWLWJOEQjOpkqU1bQsBwf4R1rsFtw5GQJbjHVKWDzO6P0nWWBTmjp1xSemAioDFj1jdaK1qa3DnMQoQ==
-  dependencies:
-    "@vue/compiler-dom" "3.4.15"
-    "@vue/compiler-sfc" "3.4.15"
-    "@vue/runtime-dom" "3.4.15"
-    "@vue/server-renderer" "3.4.15"
-    "@vue/shared" "3.4.15"

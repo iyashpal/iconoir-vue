@@ -1,3 +1,24 @@
+## v7.2.0
+8 new icons:
+- `ice-cream-solid`
+- `ice-cream`
+- `mastodon`
+- `meter-arrow-down-right`
+- `rhombus-arrow-right-solid`
+- `rhombus-arrow-right`
+- `u-turn-arrow-left`
+- `u-turn-arrow-right`
+
+Fixed some SVG properties on:
+- `airplane-rotation`
+
+Updated 5 icons:
+- `headset-bolt`
+- `headset-help`
+- `headset-warning`
+- `headset`
+- `mac-os-window`
+
 ## v7.1.0
 Added 6 new icons:
 - `asterisk`
