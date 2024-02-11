@@ -1,3 +1,14 @@
+## v7.4.0
+7 new solid icons:
+
+- `cash`
+- `credit-card`
+- `dollar-circle`
+- `euro-square`
+- `money-square`
+- `wallet`
+- `yen-square`
+
 ## v7.3.0
 24 new icons:
 - `app-notification-solid`
