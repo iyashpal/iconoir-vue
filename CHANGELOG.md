@@ -1,3 +1,22 @@
+## v7.5.0
+15 new solid icons:
+
+- `keyframe-align-center`
+- `keyframe-align-horizontal`
+- `keyframe-align-vertical`
+- `keyframe-minus-in`
+- `keyframe-minus`
+- `keyframe-plus-in`
+- `keyframe-plus`
+- `keyframe-position`
+- `keyframe`
+- `keyframes-couple`
+- `keyframes`
+- `transition-down`
+- `transition-left`
+- `transition-right`
+- `transition-up`
+
 ## v7.4.0
 7 new solid icons:
 
