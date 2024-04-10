@@ -130,10 +130,10 @@ estree-walker@^2.0.2:
   resolved "https://registry.npmjs.org/estree-walker/-/estree-walker-2.0.2.tgz"
   integrity sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==
 
-iconoir@^7.5.0:
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/iconoir/-/iconoir-7.5.0.tgz#6ca0f0159b92e2f44587ecd2a486b8621d4e4e05"
-  integrity sha512-Lc2rXsa8Htb0TEcKMZ7kSGEOKwaDYOKdI9pcAJWE60OXRaxK/Iq7QPq4VOfbeMwbi3eOiUohlk6BSi4tzQdXAQ==
+iconoir@^7.6.0:
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/iconoir/-/iconoir-7.6.0.tgz#f1c711ea3c22be4931690a8b07f5d144eb079e6c"
+  integrity sha512-xSCoxuVO++b3myB/9jv4vy9iLM+0FpTGI0zlvGi8OhNVLcEShRlaQA7IKEapvcAuqkQcEfFckPpsSzY8oSDdxQ==
 
 mdn-data@2.0.28:
   version "2.0.28"

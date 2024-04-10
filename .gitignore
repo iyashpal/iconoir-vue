@@ -5,3 +5,4 @@ regular/*
 !build/package.json
 .idea
 .vscode
+.DS_store

@@ -1,3 +1,19 @@
+## v7.6.0
+6 new solid icons:
+
+- `camera`
+- `check-square`
+- `closed-captions-tag`
+- `flash`
+- `fx-tag`
+- `hd-display`
+
+1 new regular icon:
+- `check-square`
+
+Fixes:
+- Removed an unnecessary clip path from send-diagonal icon.
+
 ## v7.5.0
 15 new solid icons:
 
