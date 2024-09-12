@@ -1,3 +1,20 @@
+## v7.7.0
+9 new bold icons:
+
+- `microphone-mute`
+- `sound-high`
+- `sound-low`
+- `sound-min`
+- `sound-off`
+- `web-window-energy-consumption`
+- `web-window-xmark`
+- `web-window`
+- `window-tabs`
+1 new regular icon:
+
+- `window-tabs`
+Minor fixes.
+
 ## v7.6.0
 6 new solid icons:
 
