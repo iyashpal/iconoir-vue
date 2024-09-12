@@ -1,3 +1,31 @@
+## v7.9.0
+7 new Regular icons:
+
+- `calendar-arrow-down`
+- `calendar-arrow-up`
+- `calendar-check`
+- `calendar-rotate`
+- `calendar-xmark`
+- `cube-dots`
+- `cube-scan`
+
+9 new Solid icons:
+
+- `calendar-arrow-down`
+- `calendar-arrow-up`
+- `calendar-check`
+- `calendar-minus`
+- `calendar-plus`
+- `calendar-rotate`
+- `calendar-xmark`
+- `cube-dots`
+- `cube-scan`
+
+2 Regular icons modified:
+
+- `calendar-minus`
+- `calendar-plus`
+
 ## v7.8.0
 13 new solid icons:
 
