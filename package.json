@@ -1,6 +1,6 @@
 {
   "name": "iconoir-vue",
-  "version": "7.7.0",
+  "version": "7.8.0",
   "description": "iconoir vue library.",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "devDependencies": {
     "@vue/compiler-dom": "^3.3.8",
     "camelcase": "^8.0.0",
-    "iconoir": "^7.7.0",
+    "iconoir": "^7.8.0",
     "svgo": "^3.0.3"
   },
   "files": [

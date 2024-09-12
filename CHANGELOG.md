@@ -1,3 +1,23 @@
+## v7.8.0
+13 new solid icons:
+
+- `bell-notification`
+- `git`
+- `mail-in`
+- `mail-out`
+- `phone-income`
+- `phone-minus`
+- `phone-outcome`
+- `phone-paused`
+- `phone-plus`
+- `phone-xmark`
+- `phone`
+- `send-mail`
+- `wolf`
+1 new regular icon:
+
+- `git`
+
 ## v7.7.0
 9 new bold icons:
 
