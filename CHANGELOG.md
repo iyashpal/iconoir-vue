@@ -1,3 +1,48 @@
+## v7.11.0
+43 new icons:
+
+- `bug`
+- `dots-grid-3x3`
+- `whatsapp`
+- `arrow-down-left-square`
+- `arrow-left-tag`
+- `arrow-right-tag`
+- `compass`
+- `divide-three`
+- `divide`
+- `drag`
+- `fast-arrow-down-square`
+- `fast-arrow-left-square`
+- `fast-arrow-right-square`
+- `fast-arrow-up-square`
+- `filter-list-circle`
+- `google-circle`
+- `long-arrow-down-left`
+- `long-arrow-down-right`
+- `long-arrow-left-down`
+- `long-arrow-left-up`
+- `long-arrow-right-down`
+- `long-arrow-right-up`
+- `long-arrow-up-left`
+- `long-arrow-up-right`
+- `nav-arrow-down`
+- `nav-arrow-left`
+- `nav-arrow-right`
+- `nav-arrow-up`
+- `page-down`
+- `page-left`
+- `page-right`
+- `page-up`
+- `path-arrow`
+- `peerlist`
+- `pocket`
+- `rss-feed-tag`
+- `shortcut-square`
+- `snapchat`
+- `tiktok`
+- `youtube`
+
+
 ## v7.10.0
 1 new regular icon:
 
