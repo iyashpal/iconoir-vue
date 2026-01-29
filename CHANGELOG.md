@@ -1,3 +1,25 @@
+## v7.10.0
+1 new regular icon:
+
+- `droplet-snow-flake-in`
+
+14 new solid icons:
+
+- `cooling-square`
+- `diameter`
+- `droplet-snow-flake-in`
+- `flask`
+- `graduation-cap`
+- `heating-square`
+- `magnet`
+- `microscope`
+- `planet`
+- `radiation`
+- `radius`
+- `round-flask`
+- `test-tube`
+- `vials`
+
 ## v7.9.0
 7 new Regular icons:
 
